@@ -6,7 +6,7 @@ var human_number = prompt('Scegli un numero tra 1 e 6' , '5');
 console.log(human_number);
 
 //Estrarre un numero casuale tra 1 e 6
-var pc_number = (Math.floor(Math.random() * 7) + 1 );
+var pc_number = (Math.floor(Math.random() * 6) + 1 );
 
 console.log(pc_number);
 
@@ -18,6 +18,6 @@ if (human_number > pc_number) {
     console.log('Avete scelto lo stesso numero: pareggio!');
     document.writeln('Avete scelto lo stesso numero: pareggio!');
 } else {
-    console.log('Il numero ' + pc_number + ' scelto dal pc è più alto: tu hai perso!');
-    document.writeln('Il numero ' + pc_number + ' scelto dal pc è più alto: tu hai perso!');
+    console.log('Il numero ' + pc_number + ' scelto dal pc è più alto:  hai perso!');
+    document.writeln('Il numero ' + pc_number + ' scelto dal pc è più alto: hai perso!');
 }
